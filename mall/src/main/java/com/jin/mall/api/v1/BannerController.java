@@ -11,7 +11,7 @@ import java.io.IOException;
 @RestController
 public class BannerController {
     @GetMapping("/test")
-    public String test(HttpServletResponse response){
+    public String test(){
         return "你好";
     }
 }
